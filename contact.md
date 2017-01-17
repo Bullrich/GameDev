@@ -7,7 +7,7 @@ permalink: /contact/
   Contact
 </div>
 <div class="manual manual-title">
-  Posting
+  Contact information
   </div>
 <p>  <div class="manual-content">
 
