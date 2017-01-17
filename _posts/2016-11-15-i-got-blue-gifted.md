@@ -6,4 +6,4 @@ categories: misc
 ---
 I got Blue Square Flow logo gifted as a plush toy for my birthday. Look at it! It’s adorable!! And very plushy.
 
-![Blue]({{ site.url }}/assets/blue.jpg)
+![Blue]({{ site.baseurl }}/assets/blue.jpg)
