@@ -4,4 +4,4 @@ This is the source code of my game dev blog.
 
 It runs with Jekyll using DevJournal theme.
 
-You can check the site in [https://bullrich.github.io/GameDev/].
+You can check the site in <https://bullrich.github.io/GameDev/>.
