@@ -1,25 +1,60 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title: Blue Square Monster
-email: BlueSquareMonsterGames@gmail.com
+# SEO settings
+title: "J"
+title2: "Bullrich" # default: ""
+description: "Just a Game Developer's Blog"
+keywords: "Blue, Square, Monster, Games, Blog, GameDev, Unity"
+url: https://bullrich.github.io/ # site url
+baseurl: "/GameDev" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
+cover: /assets/images/BSM.jpg
 
-#write html inside the double quotes to display in jumbotron
-description: "<h3>Blue Square Monster!</h3><h1>DevJournal</h1><h3>" # Awesome Jekyll Theme for Developers!</h3>Hope you like it!"
-
-
-
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-twitter_username: JavierBullrich
-github_username:  Bullrich
-linkedin_username:  javibullrich
-email:  javierbullrich@gmail.com
+google_analytics: UA-98512154-1
+repo: http://github.com/heiswayi/thinkspace
+disqus_shortname: "gamedev-javyer"
+twitter_username: "javierbullrich"
+comments: true
 
 # Build settings
-markdown: kramdown
+#permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "Javier Bullrich"
+  job      : "Game Developer"
+  bio      : "Just a space to write my thoughts."
+  thumb    : /images/BSM.png
+  email    : javierbullrich@gmail.com
+  url      : http://bullrich.github.io
+  github   : http://github.com/bullrich
+  twitter  : http://twitter.com/javierbullrich
+  //facebook : https://www.facebook.com/jbullrich
+  linkedin : http://linkedin.com/en/javierbullrich
+
+# social settings
+og_locale: "en_US"
+twitter_card: "summary_large_image"
+twitter_site: "@javierbullrich"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
