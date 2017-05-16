@@ -6,6 +6,10 @@ permalink: /about/
 
 This site is hosted on Github pages, and runs with Jekyll using DevJournal theme.
 
+I'm a Game Developer, mainly a programmer although sometimes I do some art.
+
+You can see my games [here](../../Games)
+
 ---
 ### You can contact me!
 
