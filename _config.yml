@@ -1,60 +1,24 @@
+# Site settings
+title: "JBullrich"
+bye_message: "Thx!"
+baseurl: "/GameDev/"
+url: "https://bullrich.github.io"
+disqus: gamedev-javyer
+analytics: "UA-98512154-1"
 
-# SEO settings
-title: "J"
-title2: "Bullrich" # default: ""
-description: "Just a Game Developer's Blog"
-keywords: "Blue, Square, Monster, Games, Blog, GameDev, Unity"
-url: https://bullrich.github.io/ # site url
-baseurl: "/GameDev" # apply repo name if use it under gh-pages branch
-# baseurl: null # apply null if repo name is something like username.github.io
-cover: /assets/images/BSM.jpg
-
-google_analytics: UA-98512154-1
-repo: http://github.com/heiswayi/thinkspace
-disqus_shortname: "gamedev-javyer"
-twitter_username: "javierbullrich"
-comments: true
+# Header settings
+nick: "jbullrich"
+main_site:
+    domain: "bullrich"
+    ext: "github.io"
+source_code:
+    server: "github.com"
+    nick: "bullrich"
+blog:
+    server: "wordpress.com"
+    nick: "gjuniioor"
+fingerprint_key: "5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"
 
 # Build settings
-#permalink   : /:year/:title/
-markdown    : kramdown
-highlighter : rouge
-
-source: ./
-destination: ./_site
-
-# Sass configuration
-sass:
-  sass_dir: assets/scss
-  style: compressed # expanded
-
-# Author settings
-author:
-  name     : "Javier Bullrich"
-  job      : "Game Developer"
-  bio      : "Just a space to write my thoughts."
-  thumb    : /images/BSM.png
-  email    : javierbullrich@gmail.com
-  url      : http://bullrich.github.io
-  github   : http://github.com/bullrich
-  twitter  : http://twitter.com/javierbullrich
-  //facebook : https://www.facebook.com/jbullrich
-  linkedin : http://linkedin.com/en/javierbullrich
-
-# social settings
-og_locale: "en_US"
-twitter_card: "summary_large_image"
-twitter_site: "@javierbullrich"
-
-gems:
-  - bourbon
-  - jekyll-paginate
-
-# navbar pages
-navbar:
-  - slug : about
-    title: About
-  - slug : blog
-    title: Blog
-
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+markdown: kramdown
+permalink: /:categories/:title/
