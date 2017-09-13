@@ -1,7 +1,7 @@
 # Site settings
 title: "JBullrich"
 bye_message: "Thx!"
-baseurl: "/GameDev/"
+baseurl: "/GameDev"
 url: "https://bullrich.github.io"
 disqus: gamedev-javyer
 analytics: "UA-98512154-1"
